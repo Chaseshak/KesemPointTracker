@@ -1,11 +1,17 @@
-# README
+# Kesem Point Tracker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Kesem Point Tracker is an application for counselor and event management for [Camp Kesem UW-Madison](http://campkesem.org/uwmadison).
+
+
+## Requirements
+
+| Technology | Version | Extra                                                                              |
+|------------|---------|------------------------------------------------------------------------------------|
+| Ruby       | 2.4.0   | [Release Notes](https://www.ruby-lang.org/en/news/2016/12/25/ruby-2-4-0-released/) |
+| Rails      | 5.1.4   | [Release Notes](http://guides.rubyonrails.org/5_0_release_notes.html)              |
+| PostgreSQL | 9.5.6   | [Release Notes](https://www.postgresql.org/docs/9.5/static/release-9-5-6.html)     |
 
 Things you may want to cover:
-
-* Ruby version
 
 * System dependencies
 
@@ -20,5 +26,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
