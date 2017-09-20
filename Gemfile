@@ -6,6 +6,11 @@ git_source(:github) do |repo_name|
 end
 
 
+# HAML is the template HTML engine which allows simpliied HTML and Ruby embedding
+gem 'haml'
+# Bootstrap is a front-end framework
+gem 'bootstrap', '~> 4.0.0.alpha3'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
