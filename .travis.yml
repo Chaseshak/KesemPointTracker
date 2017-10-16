@@ -3,14 +3,12 @@ cache: bundler
 rvm:
   - 2.4.0
 notifications:
-  slack: badgernetgroup:NDBkjxEAYqYjqE7LdctjsuZR
   email: false
 env:
   - DB=postgresql
 script:
   - bundle exec rake db:test:prepare
   - RAILS_ENV=test bundle exec rake db:migrate --trace
-  - bundle exec rspec spec/
   - bundle exec rubocop
 before_script:
   - cp config/database.yml.travis config/database.yml
