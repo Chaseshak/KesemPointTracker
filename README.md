@@ -1,5 +1,8 @@
 # Kesem Point Tracker
 
+[![Build Status](https://travis-ci.org/Chaseshak/KesemPointTracker.svg?branch=master)](https://travis-ci.org/Chaseshak/KesemPointTracker)
+[![Coverage Status](https://coveralls.io/repos/github/Chaseshak/KesemPointTracker/badge.svg?branch=master)](https://coveralls.io/github/Chaseshak/KesemPointTracker?branch=master)
+
 Kesem Point Tracker is an application for counselor and event management for [Camp Kesem UW-Madison](http://campkesem.org/uwmadison).
 
 
