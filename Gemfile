@@ -20,6 +20,7 @@ gem 'turbolinks', '~> 5'
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara', '~> 2.13'
+  gem 'rspec'
   gem 'rubocop'
   gem 'selenium-webdriver'
 end
