@@ -3,3 +3,4 @@ AllCops:
     - db/schema.rb
     - vendor/**/*
     - bundler_stubs/**/*
+    - db/migrate/**
