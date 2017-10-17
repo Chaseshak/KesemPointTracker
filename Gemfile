@@ -5,8 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-# Bootstrap is a front-end framework
 gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'devise'
 
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
@@ -21,6 +21,7 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'coveralls', require: false
+  gem 'factory_girl_rails'
   gem 'rspec-rails'
   gem 'rubocop'
   gem 'selenium-webdriver'
