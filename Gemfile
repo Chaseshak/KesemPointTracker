@@ -8,7 +8,6 @@ end
 # Bootstrap is a front-end framework
 gem 'bootstrap', '~> 4.0.0.alpha3'
 
-gem 'coveralls', require: false
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.4'
@@ -21,6 +20,7 @@ gem 'turbolinks', '~> 5'
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara', '~> 2.13'
+  gem 'coveralls', require: false
   gem 'rspec-rails'
   gem 'rubocop'
   gem 'selenium-webdriver'
