@@ -7,3 +7,4 @@
 #
 #  movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #  Character.create(name: 'Luke', movie: movies.first)
+CodeType.create([{ code_type: 'signup' }, { code_type: 'event' }])
